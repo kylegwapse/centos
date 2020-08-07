@@ -2,10 +2,10 @@
 error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
-$DB_host = '127.0.0.1';
-$DB_user = 'username';
-$DB_pass = 'password';
-$DB_name = 'databasename';
+$DB_host = '185.61.137.168';
+$DB_user = 'tymlexvp_cutevpn';
+$DB_pass = 'Regina143$';
+$DB_name = 'tymlexvp_cutevpn';
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
 if ($mysqli->connect_error) {
